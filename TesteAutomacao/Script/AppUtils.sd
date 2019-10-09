@@ -1,0 +1,12 @@
+﻿procedure OrdersRun; //criando um procedimento
+begin
+   TestedApps.Orders.Run;//Chamada  do procedimento
+end;
+
+
+
+procedure OrdersClose;
+begin
+   TestedApps.Orders.Close;//executa o procedimento
+end;
+

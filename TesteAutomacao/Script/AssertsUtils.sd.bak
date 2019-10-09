@@ -1,0 +1,9 @@
+﻿
+
+procedure equals(pValorUm, pValorDois);
+begin
+   if  aqConvert.VarToStr(pValorUm)= aqConvert.VarToStr(pValoDois2) then
+   Log.Checkpoint('Valores são iguais!')
+  else
+   Log.Error('Valores Diferentes');
+end;

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="Tests">
+			<child name="OrdersTests" key="{806465B2-40F6-4B4A-BCE4-26381F8318EE}" path="OrdersTests.sd" />
+		</folder>
+		<folder name="Pages">
+			<child name="OrdersPage" key="{75293E06-C632-4FF7-9ABA-B6FA22FEA980}" path="OrdersPage.sd" />
+			<child name="MainPage" key="{0F4B8546-6085-4F66-93EA-F7839E4EE62C}" path="MainPage.sd" />
+		</folder>
+		<folder name="Ultils">
+			<child name="AppUtils" key="{AD3A6AE8-F89E-4988-8359-8F9C2A1557B6}" path="AppUtils.sd" />
+			<child name="gravadorUtils" key="{B4F5BD8F-F451-4987-BB87-8A4A1C736160}" path="gravadorUtils.sd" />
+			<child name="GeradorUtils" key="{8A6CC354-0642-44DD-ACCF-7BC4CAF6BEFB}" path="GeradorUtils.sd" />
+			<child name="AssertsUtils" key="{A7180E03-EC81-4F26-956D-2D542FBA452D}" path="AssertsUtils.sd" />
+		</folder>
+	</children>
+</Root>

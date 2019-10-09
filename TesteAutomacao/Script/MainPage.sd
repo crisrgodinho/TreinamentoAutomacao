@@ -1,0 +1,8 @@
+﻿ 
+ procedure NewOrderMenu;
+ begin
+    Aliases.Orders.MainForm.MainMenu.Click('Orders|New order...');
+ end;
+ 
+ 
+ 

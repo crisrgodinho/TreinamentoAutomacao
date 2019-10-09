@@ -1,0 +1,43 @@
+﻿procedure EscolherProduto (pProduto);
+begin
+   Aliases.Orders.OrderForm.Group.ProductNames.ClickItem(produto);
+end;
+
+procedure DefinirQuantidade(pQuantidade);
+begin
+   Aliases.Orders.OrderForm.Group.Quantity.SetText((pQuantidade));
+
+end;
+
+function ObterValorTotal;
+begin
+    result := Aliases.Orders.OrderForm.Group.groupBox1.Total.wText;
+end;
+
+{
+
+ 
+
+
+  Aliases.Orders.OrderForm.Group.Discount.Drag(33, 14, -51, -10);
+  Aliases.Orders.OrderForm.Group.Discount.SetText('15');
+  Aliases.Orders.OrderForm.Group.Customer.Click(68, 7);
+  Aliases.Orders.OrderForm.Group.Customer.SetText('Teste 2');
+  Aliases.Orders.OrderForm.Group.Street.Click(70, 10);
+  Aliases.Orders.OrderForm.Group.Street.SetText('BH');
+  Aliases.Orders.OrderForm.Group.Street.Drag(39, 7, -49, -1);
+  Aliases.Orders.OrderForm.Group.Street.SetText('Rua 1');
+  Aliases.Orders.OrderForm.Group.City.Click(97, 14);
+  Aliases.Orders.OrderForm.Group.City.Keys('^b^h');
+  Aliases.Orders.OrderForm.Group.City.Click(87, 4);
+  Aliases.Orders.OrderForm.Group.City.SetText('BH');
+  Aliases.Orders.OrderForm.Group.State.Click(81, 4);
+  Aliases.Orders.OrderForm.Group.State.SetText('wrweret');
+  Aliases.Orders.OrderForm.Group.Zip.Click(54, 6);
+  Aliases.Orders.OrderForm.Group.Zip.SetText('trwtrt');
+  Aliases.Orders.OrderForm.Group.CardNo.Click(98, 13);
+  Aliases.Orders.OrderForm.Group.CardNo.SetText('123445654676');
+  Aliases.Orders.OrderForm.Group.ExpDate.wDate := '2005-08-06';
+  Aliases.Orders.OrderForm.Group.MasterCard.ClickButton;
+  Aliases.Orders.OrderForm.ButtonOK.ClickButton;
+}
